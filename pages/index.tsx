@@ -14,7 +14,9 @@ export default function Page() {
             // More info:
             // https://vercel.com/docs/concepts/projects/environment-variables
             `${
-              process.env.VERCEL_URL ? "https://" + process.env.VERCEL_URL : ""
+              "https://og-test-pink.vercel.app/"
+                ? "https://" + "og-test-pink.vercel.app/"
+                : ""
             }/api/vercel`
           }
         />
